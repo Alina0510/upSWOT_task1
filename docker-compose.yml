@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  upswot_task1:
+    image: ${DOCKER_REGISTRY-}upswottask1
+    build:
+      context: .
+      dockerfile: upSWOT_task1\Dockerfile
